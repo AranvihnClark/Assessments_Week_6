@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "npm-run-all -p nodemon browser-sync",
     "nodemon": "nodemon server.js",
-    "browser-sync": "browser-sync start --proxy localhost:8000 --files=**/*  --ignore=node_modules --reload-delay 10000 --no-ui"
+    "browser-sync": "browser-sync start --proxy localhost:8000 --files=**/*  --ignore=node_modules --reload-delay 10000 --no-ui --open false"
   },
   "author": "",
   "license": "ISC",
